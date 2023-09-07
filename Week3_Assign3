@@ -1,1 +1,24 @@
+Is there advantages to using a relative URL as opposed to an absolute URL?
 
+Yes and no. With most things in this world there are pros and cons. However, relative URLs do have a rather big stepup above absolute URLs.
+This is called portability. Normally Absolute URLs are tied to specific domains and protocols whereas relaitves are not and can be sort of "Relative". 
+Furthermore, it makes it easier to migrate or duplicate website to a different domain without having to update elements of the link.
+
+
+
+Some advantages of a text editor include:
+
+- Simplicity - Text editors are simple and lightweight. This means they are easy to fire up and get to work. 
+They have been optimised as such for these core reasons.
+
+- Speed - Text editors are designed for quick text input and manipulation, 
+allowing quick calculations and little delay for projects alike, and while ocding is the primary use, 
+they can also be used to simply jot down some notes and be saved as a .txt file.
+
+
+- Customization - Many text editors are very customizable and quite flexible. 
+Users can configure settings, key shortcuts, and themes to match their preferences and workflow. 
+This is my personal favorite advanatage to a good IDE or text editor.
+
+While there are so many other advantages, these are my favorite and are 
+really the core components of an IDE or text editor
