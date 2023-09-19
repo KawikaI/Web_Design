@@ -1,0 +1,58 @@
+#1
+
+A browser's backend functionality mainly consists of three core components. The browser engine, rendering engine, and a javascript interpreter. These all are very important and each does different things.
+Rendering engine
+
+A rendering engine is a core component of a web browser that is responsible for rendering or displaying the content of web pages to users by interpreting and processing HTML/CSS. 
+In short, the rendering engine is in charge of displaying the information correctly. 
+
+
+A browser engine is like a rendering engine, but with a few differences. Along with handling everything within the rendering engine it also handles many other things including the user interface (UI), 
+browser tabs, bookmarks, history, settings, and more.
+In addition to rendering, it handles tasks such as managing user interactions, network requests, security features, and navigation.
+In short the browser engine is best for proper functionality of sites.
+
+
+The javascript interpreter is mainly responsible for reading, parsing, and executing JavaScript code. It also does other functionalities such as memory management, scope and backend performance.
+
+
+
+#2 
+The Document Object Model or DOM, is an interface to a document that dictates how suvh document is accessed and or modified by defining structure through logic.
+The DOM represents these documents as nodes and objects on a tree structure so that programming languages such as JavaScript can modify the content.
+
+#3
+One difference between HTML and XML is, XML describes document nodes, whereas HTML displays document nodes. Another difference is that HTML renders content and page structure whereas XML does not render anything.
+XHTML is basically the best of both worlds. Correcting certain HTML elements for performance and also taking some advantages from XML.
+
+
+
+
+#4
+Four main elements an HTML page needs are Mandatory Structure, Properly Nested Tags, Closed Elements, Lowercase Elements and Attributes 
+
+Examples
+Mandatory Structure - Elements like !DOCTYPE, <head> and <body> elements are required.
+Properly Nested Tags - Maintaining tag order when nesting elements.
+Closed Elements - Always close elements. For example, <p>...</p> and <br />.
+Lowercase Elements and Attributes - All tags and attributes should be lowercase to keep clean readable code.
+
+Additional:
+<!DOCTYPE> declaration. Declares HTML version
+<root> element. Contains all other elements and text.
+<head> element. For headers.
+<body> element. For bodies of text.
+
+
+
+#5
+It it is the main entry point for a website or web application and is typically the first page that a web server sends to the browser when they visit a website. 
+
+#6 
+Naming practices are very important because if you name your files improperly, your site may break at the worst, and it's confusing at best case. 
+Some basic rules are:
+Use descriptive names,
+Be consistent with naming, 
+Avoid special characters,
+Always use lowercase
+
