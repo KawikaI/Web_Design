@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+
 <html>
+<!DOCTYPE html>
 <head>
     <title>Banana bread recipe</title>
     <style>
@@ -46,8 +47,5 @@
         <a href="mailto:kawikailac22@gmail.com">Email Me</a>
     </p>
 
-
-
-    
 </div>
 </html>
