@@ -1,0 +1,62 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(34, 5, 108); 
+    font-size: 22px;
+}
+
+/* inner */
+.main-container {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(207, 177, 7);
+    padding: 10px;
+    background-color: rgb(93, 89, 89); 
+    width: 75%;
+    margin: auto;
+}
+
+
+#mainheader {
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.secondary-container {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    padding-left: 70px; /* Add padding to the left to create space between text and image */
+    border-bottom: 1px rgb(30, 6, 86) solid;
+}
+
+
+.secondary-container.align img {
+    margin-right: 20px; /* Adds space to the right of the image if needed */
+    border: 5px solid #000; /* Increases the border thickness to 5px */
+    border-radius: 10px; /* Keeps the corners rounded */
+}
+
+#life {
+    border-radius: 10px; /* Keeps the corners rounded for the Elden Ring image */
+    display: block;
+    margin-bottom: 20px;
+    border: 5px solid #CCAC00; /* Sets the border color to dark yellow */
+}
+
+#breath {
+    border-radius: 10px; /* Keeps the corners rounded for the Lies of P image */
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+img {
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+img:hover {
+    transform: scale(1.05); /* Increase the image size to 105% when hovered */
+}
+
+
+
