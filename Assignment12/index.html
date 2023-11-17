@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bread Guide</title>
+<style>
+
+    
+body {
+  background-color: #f3e5ab; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+}
+    
+    /* Centered nav menu */
+    nav {
+      text-align: center; 
+    }
+
+    nav ul {
+      padding: 0;
+      list-style-type: none;
+      display: inline-block; 
+      margin: 0; 
+    }
+
+    nav li {
+      display: inline-block;
+    }
+
+    nav a {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Centered main content */
+    main {
+      text-align: center;
+    }
+
+    main img {
+      max-width: 100%; 
+      height: auto;
+      display: block; 
+      margin: 0 auto; 
+    }
+
+    /* Styles for dropdown and its content remain the same */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); 
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    img {
+            border-radius: 15px; 
+        }
+
+    /* Additional styles for other main elements */ 
+    main h1, main h2, .advantages, .disadvantages, .how-to {
+      /* These styles ensure the content is centered and not just text-aligned */
+      margin: 0 auto;
+      display: block;
+      max-width: 800px; 
+    }
+
+    /* List styles */
+    .advantages ul, .disadvantages ul, .how-to ul {
+      text-align: left; 
+      display: inline-block; 
+      margin: 0 auto; 
+    }
+
+    .direction-step {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9; 
+    text-align: left; 
+  }
+
+  .direction-box {
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #ececec 0%, #f9f9f9 100%);
+  margin: 20px auto;
+  overflow: hidden;
+  width: 80%;
+  padding: 0;
+}
+
+.direction-box-header {
+  background: #cccccc;
+  color: #333;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-bottom: 2px solid #bfbfbf;
+}
+
+.direction-box-content {
+  padding: 15px;
+  color: #333;
+  text-align: left;
+}
+
+
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link">About</a></li>
+      <li><a href="#" class="nav-link">Contact</a></li>
+      <li class="dropdown">
+        <button class="dropbtn">More Types of bread!</button>
+        <div class="dropdown-content">
+          <a href="#">Sourdough</a>
+          <a href="#">Rye</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>How to make bread from scratch</h1>
+  <img src="bread.png" alt="Bread" id="bread-image" width="300" height="70">
+  <section class="advantages">
+    <h2>Advantages</h2>
+    <ul>
+      <li>Tastes better and is much healthier</li>
+      <li>Everything that goes into the bread you are familiar with</li>
+     
+    </ul>
+  </section>
+  <section class="disadvantages">
+    <h2>Disadvantages</h2>
+    <ul>
+      <li>Time consuming</li>
+      <li>More expensive</li>
+   
+    </ul>
+  </section>
+  <section class="how-to">
+    <h2>How To Make bread</h2>
+    <p>You Will Need:</p>
+    <ul>
+      <li>1 package (1/4 ounce) active dry yeast</li>
+      <li>3 tablespoons plus 1/2 teaspoon Splenda</li>
+    
+    </ul>
+    <h3>Directions</h3>
+<!-- Step One -->
+<div class="direction-box">
+  <div class="direction-box-header">
+    Step One
+  </div>
+  <div class="direction-box-content">
+    <p>In a large bowl, dissolve yeast and 1/2 teaspoon sugar in warm water; let stand until bubbles form on surface.</p>
+    <img src="bread1.png" alt="Bread Step One" class="bread-image">
+  </div>
+</div>
+<!-- Step Two -->
+<div class="direction-box">
+  <div class="direction-box-header">
+    Step Two
+  </div>
+  <div class="direction-box-content">
+    <p>Whisk together remaining 3 tablespoons sugar, salt, and 3 cups flour. Stir oil into yeast mixture; pour into flour mixture and beat until smooth.</p>
+    <img src="bread2.png" alt="Bread Step Two" class="bread-image">
+  </div>
+</div>
+<!-- Step Three -->
+<div class="direction-box">
+  <div class="direction-box-header">
+    Step Three
+  </div>
+  <div class="direction-box-content">
+    <p>Turn onto a floured surface; knead until smooth and elastic, 8-10 minutes. Place in a greased bowl, turning once to grease the top.</p>
+    <img src="bread3.png" alt="Bread Step Three" class="bread-image">
+  </div>
+</div>
+<!-- Step Four -->
+<div class="direction-box">
+  <div class="direction-box-header">
+    Step Four
+  </div>
+  <div class="direction-box-content">
+    <p>Bake at 375° until the loaf is golden brown and sounds hollow when tapped or has reached an internal temperature of 200°, 30-35 minutes.</p>
+    <img src="bread4.png" alt="Bread Step Four" class="bread-image">
+  </div>
+</div>
+  </section>
+
+</main>
+</body>
+</html>
