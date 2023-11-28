@@ -1,0 +1,172 @@
+body {
+    background-color: #716565;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.rounded {
+    border-radius: 20px;  
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul li {
+        float: none;
+        width: 100%;
+    }
+
+    .dropdown-content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+.image-container {
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.hover-image {
+    width: 300px; 
+    height: auto;
+
+    border-radius: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border: 3px solid transparent;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+    border: 3px solid blue; 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .hover-image {
+        width: 100px; 
+    }
+}
+
+
+
+.info-container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; 
+    text-align: center;
+    width: 50%; 
+    max-width: 800px; 
+   
+}
+
+
+.info-container p {
+    color: rgb(14, 11, 11);
+  
+}
